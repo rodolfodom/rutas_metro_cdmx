@@ -7,7 +7,12 @@ Created on Wed Oct 30 10:55:10 2024
 """
 
 linea_1 = {
-    "Pantitlán-1": {"Zaragoza": 1320, "Pantitlán-9": 469, "Pantitlán-A": 602, "Pantitlán-5": 300},
+    "Pantitlán-1": {
+        "Zaragoza": 1320,
+        "Pantitlán-9": 300,
+        "Pantitlán-A": 300,
+        "Pantitlán-5": 300,
+    },
     "Zaragoza": {"Gómez Farías": 762},
     "Gómez Farías": {"Boulevard Puerto Aéreo": 595},
     "Boulevard Puerto Aéreo": {"Balbuena": 595},
@@ -18,16 +23,16 @@ linea_1 = {
     "Merced": {"Pino Suárez-1": 745},
     "Pino Suárez-1": {"Isabel la Católica": 382, "Pino Suárez-2": 300},
     "Isabel la Católica": {"Salto del Agua-1": 445},
-    "Salto del Agua-1": {"Balderas-1": 458, "Salto del Agua-8":300},
-    "Balderas-1": {"Cuauhtémoc": 409, "Balderas-3":300},
+    "Salto del Agua-1": {"Balderas-1": 458, "Salto del Agua-8": 300},
+    "Balderas-1": {"Cuauhtémoc": 409, "Balderas-3": 300},
     "Cuauhtémoc": {"Insurgentes": 793},
     "Insurgentes": {"Sevilla": 645},
     "Sevilla": {"Chapultepec": 501},
     "Chapultepec": {"Juanacatlán": 973},
     "Juanacatlán": {"Tacubaya-1": 1158},
     "Tacubaya-1": {"Observatorio": 1262, "Tacubaya-9": 300, "Tacubaya-7": 300},
-    "Observatorio": {}
-    }
+    "Observatorio": {},
+}
 
 
 linea_2 = {
@@ -54,7 +59,7 @@ linea_2 = {
     "Portales": {"Ermita-2": 748},
     "Ermita-2": {"General Anaya": 838, "Ermita-12": 300},
     "General Anaya": {"Tasqueña": 1330},
-    "Tasqueña": {}
+    "Tasqueña": {},
 }
 
 linea_3 = {
@@ -69,7 +74,10 @@ linea_3 = {
     "Balderas-3": {"Niños Héroes": 665, "Balderas-1": 300},
     "Niños Héroes": {"Hospital General": 559},
     "Hospital General": {"Centro Médico-3": 653},
-    "Centro Médico-3": {"Etiopía/Plaza de la Transparencia": 1119, "Centro Médico-9": 300},
+    "Centro Médico-3": {
+        "Etiopía/Plaza de la Transparencia": 1119,
+        "Centro Médico-9": 300,
+    },
     "Etiopía/Plaza de la Transparencia": {"Eugenia": 950},
     "Eugenia": {"División del Norte": 715},
     "División del Norte": {"Zapata-3": 794},
@@ -77,8 +85,8 @@ linea_3 = {
     "Coyoacán": {"Viveros/Derechos Humanos": 908},
     "Viveros/Derechos Humanos": {"Miguel Ángel de Quevedo": 824},
     "Miguel Ángel de Quevedo": {"Copilco": 1295},
-    "Copilco": {"Universidad": 1306}
-    "Universidad": {}
+    "Copilco": {"Universidad": 1306},
+    "Universidad": {},
 }
 
 linea_4 = {
@@ -91,12 +99,15 @@ linea_4 = {
     "Consulado-4": {"Bondojito": 645, "Consulado-5": 300},
     "Bondojito": {"Talisman": 959},
     "Talisman": {"Martín Carrera-4": 1129, "Martín Carrera-6": 300},
-    "Martín Carrera-4": {}
+    "Martín Carrera-4": {},
 }
 
 linea_5 = {
     "Politécnico": {"Instituto del Petróleo-5": 1188},
-    "Instituto del Petróleo-5": {"Autobuses del Norte": 1067, "Instituto del Petróleo-6": 300},
+    "Instituto del Petróleo-5": {
+        "Autobuses del Norte": 1067,
+        "Instituto del Petróleo-6": 300,
+    },
     "Autobuses del Norte": {"La Raza-5": 975},
     "La Raza-5": {"Misterios": 892, "La Raza-3": 300},
     "Misterios": {"Valle Gómez": 969},
@@ -107,7 +118,7 @@ linea_5 = {
     "Oceanía-5": {"Terminal Aérea": 1174, "Oceanía-B": 300},
     "Terminal Aérea": {"Hangares": 1153},
     "Hangares": {"Pantitlán-5": 1644},
-    "Pantitlán-5": {"Pantitlán-1": 300, "Pantitlán-9": 300, "Pantitlán-A": 300}
+    "Pantitlán-5": {"Pantitlán-1": 300, "Pantitlán-9": 300, "Pantitlán-A": 300},
 }
 
 linea_6 = {
@@ -119,9 +130,12 @@ linea_6 = {
     "Vallejo": {"Instituto del Petróleo-6": 755},
     "Instituto del Petróleo-6": {"Lindavista": 1258, "Instituto del Petróleo-5": 300},
     "Lindavista": {"Deportivo 18 de Marzo-6": 1075},
-    "Deportivo 18 de Marzo-6": {"La Villa/Basílica": 570, "Deportivo 18 de Marzo-3": 300},
+    "Deportivo 18 de Marzo-6": {
+        "La Villa/Basílica": 570,
+        "Deportivo 18 de Marzo-3": 300,
+    },
     "La Villa/Basílica": {"Martín Carrera": 1141},
-    "Martín Carrera-6": {"Martín Carrera-4": 300}
+    "Martín Carrera-6": {"Martín Carrera-4": 300},
 }
 
 linea_7 = {
@@ -134,11 +148,15 @@ linea_7 = {
     "Polanco": {"Auditorio": 812},
     "Auditorio": {"Constituyentes": 1430},
     "Constituyentes": {"Tacubaya-7": 1005},
-    "Tacubaya-7": {"San Pedro de los Pinos": 1084, "Tacubaya-1": 300, "Tacubaya-9": 300},
+    "Tacubaya-7": {
+        "San Pedro de los Pinos": 1084,
+        "Tacubaya-1": 300,
+        "Tacubaya-9": 300,
+    },
     "San Pedro de los Pinos": {"San Antonio": 606},
     "San Antonio": {"Mixcoac": 788},
-    "Mixcoac-7": {"Barranca del Muerto": 1476, "Mixcoac-12": 300}
-    "Barranca del Muerto": {}
+    "Mixcoac-7": {"Barranca del Muerto": 1476, "Mixcoac-12": 300},
+    "Barranca del Muerto": {},
 }
 
 linea_8 = {
@@ -159,12 +177,17 @@ linea_8 = {
     "Atlalilco-8": {"Iztapalapa": 732, "Atlalilco-12": 300},
     "Iztapalapa": {"Cerro de la Estrella": 717},
     "Cerro de la Estrella": {"UAM I": 1135},
-    "UAM I": {"Constitución de 1917": 1137}
-    "Constitución de 1917": {}
+    "UAM I": {"Constitución de 1917": 1137},
+    "Constitución de 1917": {},
 }
 
 linea_9 = {
-    "Pantitlán-9": {"Puebla": 1380, "Pantitlán-1": 300, "Pantitlán-5": 300, "Pantitlán-A": 300},
+    "Pantitlán-9": {
+        "Puebla": 1380,
+        "Pantitlán-1": 300,
+        "Pantitlán-5": 300,
+        "Pantitlán-A": 300,
+    },
     "Puebla": {"Ciudad Deportiva": 800},
     "Ciudad Deportiva": {"Velódromo": 1110},
     "Velódromo": {"Mixiuhca": 821},
@@ -174,11 +197,9 @@ linea_9 = {
     "Lázaro Cárdenas": {"Centro Médico-9": 1059},
     "Centro Médico-9": {"Chilpancingo": 1152, "Centro Médico-3": 300},
     "Chilpancingo": {"Patriotismo": 955},
-    "Patriotismo": {"Tacubaya-9": 1133}
-    "Tacubaya-9": {"Tacubaya-1": 300, "Tacubaya-7": 300}
+    "Patriotismo": {"Tacubaya-9": 1133},
+    "Tacubaya-9": {"Tacubaya-1": 300, "Tacubaya-7": 300},
 }
-
-
 
 linea_B = {
     "Ciudad Azteca": {"Plaza Aragón": 574},
@@ -201,11 +222,16 @@ linea_B = {
     "Lagunilla": {"Garibaldi-B": 474},
     "Garibaldi-B": {"Guerrero-B": 757, "Garibaldi-8": 300},
     "Guerrero-B": {"Buenavista": 521, "Guerrero-3": 300},
-    "Buenavista": {}
+    "Buenavista": {},
 }
 
 linea_A = {
-    "Pantitlán-A": {"Agrícola Oriental": 1409, "Pantitlán-1": 300, "Pantitlán-5": 300, "Pantitlán-9": 300},
+    "Pantitlán-A": {
+        "Agrícola Oriental": 1409,
+        "Pantitlán-1": 300,
+        "Pantitlán-5": 300,
+        "Pantitlán-9": 300,
+    },
     "Agrícola Oriental": {"Canal de San Juan": 1093},
     "Canal de San Juan": {"Tepalcates": 1456},
     "Tepalcates": {"Guelatao": 1161},
@@ -213,7 +239,7 @@ linea_A = {
     "Peñón Viejo": {"Acatitla": 1379},
     "Acatitla": {"Santa Marta": 1100},
     "Santa Marta": {"Los Reyes": 1783},
-    "Los Reyes": {"La Paz": 1956}
+    "Los Reyes": {"La Paz": 1956},
 }
 
 linea_12 = {
@@ -236,22 +262,7 @@ linea_12 = {
     "Zapata-12": {"Hospital 20 de Noviembre": 450, "Zapata-3": 300},
     "Hospital 20 de Noviembre": {"Insurgentes Sur": 725},
     "Insurgentes Sur": {"Mixcoac-12": 651},
-    "Mixcoac-12": {"Mixcoac-7": 300}
+    "Mixcoac-12": {"Mixcoac-7": 300},
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+metro_graph = {**linea_1, **linea_2, **linea_3, **linea_4, **linea_5, **linea_6, **linea_7, **linea_8, **linea_9,**linea_A, **linea_B, **linea_12}
