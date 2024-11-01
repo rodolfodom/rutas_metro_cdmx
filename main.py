@@ -37,8 +37,8 @@ def calcular_ruta_mas_corta(grafo, origen, destino):
 
 
 if __name__ == "__main__":
-    origen = 'Pantitlán-1'
-    destino = 'Oceanía-5'
+    origen = 'Zapata-3'
+    destino = 'La Paz'
     ruta, distancia_total = calcular_ruta_mas_corta(graph.metro_graph, origen, destino)
     print(f"La ruta más corta de {origen} a {destino} es:")
     print(" -> ".join(ruta))
